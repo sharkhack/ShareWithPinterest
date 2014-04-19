@@ -1,0 +1,13 @@
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+    <id>com.azer.iospinterest</id>
+    <versionNumber>1.0.0</versionNumber>
+    <platforms>
+        <platform name="iPhone-ARM">
+            <applicationDeployment>
+                <nativeLibrary>libShareWithPinterest.a</nativeLibrary>
+               	<initializer>PinExtInitializer</initializer>
+                <finalizer>PinExtFinalizer</finalizer>
+            </applicationDeployment>
+        </platform>
+    </platforms>
+</extension>

@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C344BE91901F9FC00945C28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C344BE81901F9FC00945C28 /* Foundation.framework */; };
+		3C344BEE1901F9FC00945C28 /* ShareWithPinterest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C344BED1901F9FC00945C28 /* ShareWithPinterest.h */; };
+		3C344BF01901F9FC00945C28 /* ShareWithPinterest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C344BEF1901F9FC00945C28 /* ShareWithPinterest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3C344BF71901F9FD00945C28 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C344BF61901F9FD00945C28 /* XCTest.framework */; };
+		3C344BF81901F9FD00945C28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C344BE81901F9FC00945C28 /* Foundation.framework */; };
+		3C344BFA1901F9FD00945C28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C344BF91901F9FD00945C28 /* UIKit.framework */; };
+		3C344BFD1901F9FD00945C28 /* libShareWithPinterest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C344BE51901F9FC00945C28 /* libShareWithPinterest.a */; };
+		3C344C031901F9FD00945C28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C344C011901F9FD00945C28 /* InfoPlist.strings */; };
+		3C344C051901F9FD00945C28 /* ShareWithPinterestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C344C041901F9FD00945C28 /* ShareWithPinterestTests.m */; };
+		3C344C0F1901FA9600945C28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C344C0E1901FA9500945C28 /* UIKit.framework */; };
+		3C344C131901FACB00945C28 /* Pinterest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C344C121901FACB00945C28 /* Pinterest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C344BFB1901F9FD00945C28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C344BDD1901F9FC00945C28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C344BE41901F9FC00945C28;
+			remoteInfo = ShareWithPinterest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C344BE31901F9FC00945C28 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				3C344BEE1901F9FC00945C28 /* ShareWithPinterest.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C344BE51901F9FC00945C28 /* libShareWithPinterest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libShareWithPinterest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C344BE81901F9FC00945C28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C344BEC1901F9FC00945C28 /* ShareWithPinterest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShareWithPinterest-Prefix.pch"; sourceTree = "<group>"; };
+		3C344BED1901F9FC00945C28 /* ShareWithPinterest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShareWithPinterest.h; sourceTree = "<group>"; };
+		3C344BEF1901F9FC00945C28 /* ShareWithPinterest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareWithPinterest.m; sourceTree = "<group>"; };
+		3C344BF51901F9FD00945C28 /* ShareWithPinterestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareWithPinterestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C344BF61901F9FD00945C28 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3C344BF91901F9FD00945C28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3C344C001901F9FD00945C28 /* ShareWithPinterestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShareWithPinterestTests-Info.plist"; sourceTree = "<group>"; };
+		3C344C021901F9FD00945C28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C344C041901F9FD00945C28 /* ShareWithPinterestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareWithPinterestTests.m; sourceTree = "<group>"; };
+		3C344C0E1901FA9500945C28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C344C121901FACB00945C28 /* Pinterest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pinterest.framework; path = Pinterest.embeddedframework/Pinterest.framework; sourceTree = "<group>"; };
+		3C344C141901FAFA00945C28 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlashRuntimeExtensions.h; path = ShareWithPinterest/FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C344BE21901F9FC00945C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C344C131901FACB00945C28 /* Pinterest.framework in Frameworks */,
+				3C344C0F1901FA9600945C28 /* UIKit.framework in Frameworks */,
+				3C344BE91901F9FC00945C28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C344BF21901F9FD00945C28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C344BF71901F9FD00945C28 /* XCTest.framework in Frameworks */,
+				3C344BFA1901F9FD00945C28 /* UIKit.framework in Frameworks */,
+				3C344BFD1901F9FD00945C28 /* libShareWithPinterest.a in Frameworks */,
+				3C344BF81901F9FD00945C28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C344BDC1901F9FC00945C28 = {
+			isa = PBXGroup;
+			children = (
+				3C344C141901FAFA00945C28 /* FlashRuntimeExtensions.h */,
+				3C344BEA1901F9FC00945C28 /* ShareWithPinterest */,
+				3C344BFE1901F9FD00945C28 /* ShareWithPinterestTests */,
+				3C344BE71901F9FC00945C28 /* Frameworks */,
+				3C344BE61901F9FC00945C28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C344BE61901F9FC00945C28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C344BE51901F9FC00945C28 /* libShareWithPinterest.a */,
+				3C344BF51901F9FD00945C28 /* ShareWithPinterestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C344BE71901F9FC00945C28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C344C121901FACB00945C28 /* Pinterest.framework */,
+				3C344C0E1901FA9500945C28 /* UIKit.framework */,
+				3C344BE81901F9FC00945C28 /* Foundation.framework */,
+				3C344BF61901F9FD00945C28 /* XCTest.framework */,
+				3C344BF91901F9FD00945C28 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C344BEA1901F9FC00945C28 /* ShareWithPinterest */ = {
+			isa = PBXGroup;
+			children = (
+				3C344BED1901F9FC00945C28 /* ShareWithPinterest.h */,
+				3C344BEF1901F9FC00945C28 /* ShareWithPinterest.m */,
+				3C344BEB1901F9FC00945C28 /* Supporting Files */,
+			);
+			path = ShareWithPinterest;
+			sourceTree = "<group>";
+		};
+		3C344BEB1901F9FC00945C28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C344BEC1901F9FC00945C28 /* ShareWithPinterest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C344BFE1901F9FD00945C28 /* ShareWithPinterestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C344C041901F9FD00945C28 /* ShareWithPinterestTests.m */,
+				3C344BFF1901F9FD00945C28 /* Supporting Files */,
+			);
+			path = ShareWithPinterestTests;
+			sourceTree = "<group>";
+		};
+		3C344BFF1901F9FD00945C28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C344C001901F9FD00945C28 /* ShareWithPinterestTests-Info.plist */,
+				3C344C011901F9FD00945C28 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C344BE41901F9FC00945C28 /* ShareWithPinterest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C344C081901F9FD00945C28 /* Build configuration list for PBXNativeTarget "ShareWithPinterest" */;
+			buildPhases = (
+				3C344BE11901F9FC00945C28 /* Sources */,
+				3C344BE21901F9FC00945C28 /* Frameworks */,
+				3C344BE31901F9FC00945C28 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareWithPinterest;
+			productName = ShareWithPinterest;
+			productReference = 3C344BE51901F9FC00945C28 /* libShareWithPinterest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3C344BF41901F9FD00945C28 /* ShareWithPinterestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C344C0B1901F9FD00945C28 /* Build configuration list for PBXNativeTarget "ShareWithPinterestTests" */;
+			buildPhases = (
+				3C344BF11901F9FD00945C28 /* Sources */,
+				3C344BF21901F9FD00945C28 /* Frameworks */,
+				3C344BF31901F9FD00945C28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C344BFC1901F9FD00945C28 /* PBXTargetDependency */,
+			);
+			name = ShareWithPinterestTests;
+			productName = ShareWithPinterestTests;
+			productReference = 3C344BF51901F9FD00945C28 /* ShareWithPinterestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C344BDD1901F9FC00945C28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = azer;
+			};
+			buildConfigurationList = 3C344BE01901F9FC00945C28 /* Build configuration list for PBXProject "ShareWithPinterest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C344BDC1901F9FC00945C28;
+			productRefGroup = 3C344BE61901F9FC00945C28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C344BE41901F9FC00945C28 /* ShareWithPinterest */,
+				3C344BF41901F9FD00945C28 /* ShareWithPinterestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C344BF31901F9FD00945C28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C344C031901F9FD00945C28 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C344BE11901F9FC00945C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C344BF01901F9FC00945C28 /* ShareWithPinterest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C344BF11901F9FD00945C28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C344C051901F9FD00945C28 /* ShareWithPinterestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C344BFC1901F9FD00945C28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C344BE41901F9FC00945C28 /* ShareWithPinterest */;
+			targetProxy = 3C344BFB1901F9FD00945C28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C344C011901F9FD00945C28 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C344C021901F9FD00945C28 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C344C061901F9FD00945C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C344C071901F9FD00945C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C344C091901F9FD00945C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ShareWithPinterest.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pinterest.embeddedframework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareWithPinterest/ShareWithPinterest-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3C344C0A1901F9FD00945C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ShareWithPinterest.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pinterest.embeddedframework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareWithPinterest/ShareWithPinterest-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3C344C0C1901F9FD00945C28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareWithPinterest/ShareWithPinterest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ShareWithPinterestTests/ShareWithPinterestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3C344C0D1901F9FD00945C28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShareWithPinterest/ShareWithPinterest-Prefix.pch";
+				INFOPLIST_FILE = "ShareWithPinterestTests/ShareWithPinterestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C344BE01901F9FC00945C28 /* Build configuration list for PBXProject "ShareWithPinterest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C344C061901F9FD00945C28 /* Debug */,
+				3C344C071901F9FD00945C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C344C081901F9FD00945C28 /* Build configuration list for PBXNativeTarget "ShareWithPinterest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C344C091901F9FD00945C28 /* Debug */,
+				3C344C0A1901F9FD00945C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C344C0B1901F9FD00945C28 /* Build configuration list for PBXNativeTarget "ShareWithPinterestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C344C0C1901F9FD00945C28 /* Debug */,
+				3C344C0D1901F9FD00945C28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C344BDD1901F9FC00945C28 /* Project object */;
+}
