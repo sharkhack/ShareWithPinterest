@@ -36,6 +36,7 @@ In your application's project settings you will need to add a URL type to suppor
 
 Add to your project app.xml file  as follow;
 
+```xml
 <application>
         ....
         <iPhone>
@@ -65,7 +66,7 @@ Add to your project app.xml file  as follow;
                 <extensionID>com.azer.iospinterest</extensionID>
         </extensions>
 </application>
-
+```
 
 ActionScript Flex Mobile Library Project functions:
 
@@ -74,11 +75,13 @@ Initializes a Pinterest instance.
  @return Pinterest instance.
  If pinning is possible via the Pin It SDK on the device.
 
+```actionscript
  PinIt.getInstance().initClientId(PINTEREST_CLIENT_ID);
-
+```
 
  Crate Pin
 
+```actionscript
  /**
  * createPin
  * 
@@ -87,7 +90,7 @@ Initializes a Pinterest instance.
  * @param descriptionText The pin's description.
  * */
 PinIt.getInstance().createPin(imageURL,sourceURL,"IMAGE DESCRIPTION HERE");
-
+```
 
 
 -----
