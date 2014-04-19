@@ -1,7 +1,7 @@
-# IOS iOS Pin It App ANE Project
+#iOS Pin It App ANE Project
 ===============
 
-iOS iOS Pin It SDK for Adobe Air Native Extension
+iOS Pin It SDK for Adobe Air Native Extension
 
 Help people share from your iPhone app.
 With the launch of Pinterest version 2.3 for iOS, we'll be supporting the Pin It button SDK for your iOS app. This SDK will let your users create Pinterest content inside your app with just a few lines of code. Right now, we only support adding an image from a URL. In the future, we’ll support adding local images.
